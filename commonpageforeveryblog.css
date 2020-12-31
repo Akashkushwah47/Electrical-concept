@@ -20,6 +20,18 @@ body{
     border-radius: 0px 10px 10px 0px;
     width:80%;
 }
+@media only screen and (max-width:600px)
+{   #div1{
+    font-size:16px;
+}
+   
+}
+ /* for images inside #div1  give id images to div for responsive view */
+ .imagesdiv{ display:flex;
+    justify-content: center;
+    
+     
+ }
 /* right bar ---------------rightbar div--------------------- */
 #rightbar{
     background-color: white;
